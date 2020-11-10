@@ -1,0 +1,20 @@
+@import '../../Styles/shared.scss';
+
+.content-admin-segment{
+    min-height: 60vh;
+    margin: 40px!important;
+    .ui.yellow.header.content-admin-header{
+        color: $aksen!important;
+    }
+    .ui.input.focus>input, .ui.input>input:focus{
+        border-color: $aksen!important;
+    }
+    .ui.primary.button, .ui.primary.buttons .button{
+        background-color: $aksen!important;
+    }
+    .general_form{
+        .ui.label.label{
+            width: 140px!important;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+@import '../../../Styles/shared.scss';
+
+.galeri-container{
+    .pagination_container{
+        a{
+            color: $aksen!important;
+        }
+        a:hover{
+            color: $aksen!important;
+        }
+    }
+    .ui.loading.vertical.segment.content_segment{
+        z-index: 0!important;
+    }
+}

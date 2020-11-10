@@ -1,0 +1,46 @@
+@import '../../../Styles/shared.scss';
+
+.daftar-berita{
+    .pagination_container{
+        a{
+            color: $aksen!important;
+        }
+        a:hover{
+            color: $aksen!important;
+        }
+    }
+
+    .ui.loading.vertical.segment.berita_container{
+        z-index: 0!important;
+        height: 50%!important;
+        h1,p,div{
+            display: none;
+        }
+    }
+
+    .lainya_container{
+        .ui.header{
+            color: gray;
+        }
+        i{
+            color: $aksen;
+            font-weight: normal;
+        }
+        div{
+            .header{
+                color: $aksen!important;
+            }
+            .description{
+                color: rgba(128, 128, 128, 0.055);
+            }
+        }
+        a:hover{
+            i{
+                font-weight: bolder!important;
+            }
+            .sticky.note.outline.large.icon.middle.aligned{
+                color: $aksen!important;
+            }
+        }
+    }
+}

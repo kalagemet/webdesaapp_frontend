@@ -1,0 +1,40 @@
+@import '../../../Styles/shared.scss';
+.header-admin-container{
+    .header_segment{
+        position: fixed;
+        z-index: 1;
+        height: $header-nav-height-admin;
+        width: 100%;
+        background: white!important;
+        border: solid $aksen !important;
+        border-width: 0 0 1px 0 !important;
+        top: 0!important;
+        .mobileNav-button{
+            margin-left: 20px;
+        }
+    }
+
+    .sidebar-header{
+        width: $sidebar-width!important;
+        height: $header-nav-height-admin!important;
+        margin-left: 15px!important;
+        padding: 0 25px 0 25px!important;
+        .ui.header{
+            color: $aksen!important;
+        }
+    }
+
+    .header-container{
+        height: $header-nav-height-admin!important;
+        width: calc(100% - #{$sidebar-width} - 15px)!important;
+        .ui.yellow.basic.icon.left.labeled.button{
+            color: $aksen!important;
+            box-shadow: 0 0 0 1px $aksen inset!important;
+        }
+    }
+
+    .header_divider{
+        margin: 0!important;
+        padding: 8px;
+    }
+}

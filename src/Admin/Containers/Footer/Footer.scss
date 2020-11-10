@@ -1,0 +1,11 @@
+@import '../../../Styles/shared.scss';
+.admin-footer{          
+    width: 100vw!important;
+    @media only screen and (min-width: 768px) {
+        width: calc(100vw - #{$sidebar-width})!important;
+        left: $sidebar-width!important;
+    }
+    height: $admin-footer!important;
+    border-radius: 0!important;
+    padding-top: 18px!important;
+}

@@ -1,0 +1,20 @@
+@import '../../../Styles/shared.scss';
+.nik-container{
+    .nik_segment{
+        .ui.yellow.button, 
+        .ui.yellow.buttons .button{
+            background-color: $aksen!important;
+        }
+        .ui.input.focus>input, 
+        .ui.input>input:focus{
+            border-color: $aksen!important;
+        }
+    }
+    .ui.yellow.segment:not(.inverted){
+        border-top-color: $aksen!important;
+    }
+
+    .content_segment{
+        padding: 40px!important;
+    }
+}

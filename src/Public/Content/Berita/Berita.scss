@@ -1,0 +1,51 @@
+@import '../../../Styles/shared.scss';
+
+.berita-container{
+    .content_segment{
+        min-height: 258px;
+        .sub.header{
+            font-size: small!important;
+        }
+    }
+
+    .breadcrumb_container{
+        .right.chevron.icon.divider,
+        .right.arrow.icon.divider{
+            color: white;
+        }
+
+        .ui.breadcrumb{
+            a{
+                color: $aksen!important;
+            }
+        }
+
+        padding-left: 6vw!important;
+    }
+
+    .lainya_container{
+        .ui.header{
+            color: gray;
+        }
+        i{
+            color: $aksen;
+            font-weight: normal;
+        }
+        div{
+            .header{
+                color: $aksen!important;
+            }
+            .description{
+                color: rgba(128, 128, 128, 0.055);
+            }
+        }
+        a:hover{
+            i{
+                font-weight: bolder!important;
+            }
+            .sticky.note.outline.large.icon.middle.aligned{
+                color: $aksen!important;
+            }
+        }
+    }
+}

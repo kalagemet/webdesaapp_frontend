@@ -1,0 +1,24 @@
+@import '../../Styles/shared.scss';
+
+.left-side-container{
+    .ui.yellow.header{
+        color: $aksen!important;
+    }
+    .ui.yellow.segment:not(.inverted){
+        border-top: 2px solid $aksen!important;
+    }
+
+    .ui.list .list>.item a.header, .ui.list>.item a.header{
+        color: $aksen!important;
+    }
+    i.yellow.sticky.note.outline.large.icon.middle.aligned{
+        color: $aksen!important;
+    }
+
+    .stiky_container{
+        z-index: 0;
+        .ui.fixed.top.sticky{
+            top: $header-nav-mobile-height+$header-text-height !important;
+        }
+    }
+}

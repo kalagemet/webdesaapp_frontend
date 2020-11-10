@@ -1,0 +1,11 @@
+@import '../../../Styles/shared.scss';
+
+.content_segment{
+
+    .ui.input.focus>input, 
+    .ui.form textarea:focus,
+    .ui.selection.active.dropdown,
+    .ui.input>input:focus{
+        border-color: $aksen!important;
+    }
+}
